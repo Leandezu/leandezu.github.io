@@ -189,14 +189,15 @@ img{
 
 .footer{
     background-color: var(--negroClaro);
-    margin: 3rem 0 0;
-    padding: 2rem;
+    margin-top: 3rem;
+    padding: 3rem 0;
 }
 
 /* Informacion */
 
 .contenedor-info{
     display: block;
+    height: 45rem;
 }
 
 @media (min-width: 768px) {
