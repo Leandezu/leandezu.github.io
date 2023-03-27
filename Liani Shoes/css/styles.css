@@ -7,9 +7,6 @@
 }
 
 /* Globales */
-.active{
-    background-color: #121212;
-}
 
 html{
     font-size: 62.5%;
@@ -20,10 +17,11 @@ body{
     font-size: 16px; /* 1rem = 10px */
     box-sizing: border-box;
     background-color: #e1e1e1;
+    transition: all .3s;
+    color: black;
 }
 
 h1,h2,h3,h4{
-    color: black;
     text-align: center;
     font-weight: 800;
     margin: 2rem 0;
@@ -35,6 +33,7 @@ h2,h3,h4{
 h1{
     font-size: 4rem;
     font-family: var(--fontAlegreya);
+    color: black;
 }
 h2{
     font-size: 3.6rem;
@@ -51,7 +50,6 @@ a{
 p{
     font-family: var(--fontLexend);
     line-height: 2;
-    color: black;
     font-size: 2rem;
     font-weight: 100;
 }
@@ -74,13 +72,9 @@ img{
     text-align: center;
 }
 
-.switch{
-    border-radius: 10rem;
-    position: relative;
-    border: none;
-    display: flex;
-    outline: none;
-    cursor: pointer;
+.modoOscuro{
+    background-color: #000117;
+    color: white;
 }
 
 /* Utilidades */
@@ -92,11 +86,20 @@ img{
 .color-blanco{
     color: white;
 }
-.letra-italic{
-    font-style: italic;
+.fondo-blanco{
+    background-color: white;
 }
 .color-marron{
     color: #8f6b53;
+}
+.color-negro{
+    color: black;
+}
+.fondo-negro{
+    background-color: black;
+}
+.letra-italic{
+    font-style: italic;
 }
 .align-left{
     text-align: left;
@@ -108,9 +111,9 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
     height: 3rem;
     padding: .5rem 8rem;
+    transition: all .5s;
 }
 .redes__svg{
     margin: 0 .5rem;
@@ -123,7 +126,7 @@ img{
 
 .navegador{
     padding: 2rem 0;
-    background-color: white;
+    transition: all .5s;
 }
 .navegador__contenido{
     display: flex;
@@ -142,7 +145,6 @@ img{
 .enlaces{
     font-size: 1.8rem;
     font-family: var(--fontLexend);
-    color: black;
     margin: 0 2rem;
     text-transform: uppercase;
     border-right: 2px solid grey;
@@ -282,7 +284,6 @@ main h2{
 .grid{
     padding: 4rem 0;
     display: grid
-
 }
 @media (min-width: 1024px) {
     .grid{
