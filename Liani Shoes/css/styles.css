@@ -72,6 +72,15 @@ img{
     text-align: center;
 }
 
+.switch{
+    margin-top: 3rem;
+}
+@media(min-width: 768px){
+    .switch{
+        margin: 0;
+    }
+}
+
 .modoOscuro{
     background-color: #000117;
     color: white;
@@ -82,6 +91,9 @@ img{
 .contenedor{
     max-width: 90%;
     margin: auto;
+}
+.no-margin{
+    margin: 0;
 }
 .color-blanco{
     color: white;
@@ -98,8 +110,14 @@ img{
 .fondo-negro{
     background-color: black;
 }
+.fondo-grisOcuro{
+    background-color: #2F3447;
+}
 .letra-italic{
     font-style: italic;
+}
+.letra-minuscula{
+    text-transform: lowercase;
 }
 .align-left{
     text-align: left;
@@ -117,6 +135,12 @@ img{
 }
 .redes__svg{
     margin: 0 .5rem;
+    display: none;
+}
+@media(min-width: 768px){
+    .redes__svg{
+        display: inline;
+    }
 }
 .header__ofertas{
     margin-right: 4rem;
@@ -142,13 +166,15 @@ img{
 .nav-principal{
     text-align: center;
 }
-.enlaces{
+.enlaces, .footer__enlaces{
     font-size: 1.8rem;
     font-family: var(--fontLexend);
     margin: 0 2rem;
-    text-transform: uppercase;
     border-right: 2px solid grey;
     padding-right: 4rem;
+}
+.enlaces{
+    text-transform: uppercase;
 }
 .enlaces:last-of-type{
     padding: 0;
@@ -281,12 +307,12 @@ main h2{
 
 /* Muestras */
 
-.grid{
+.muestra__grid{
     padding: 4rem 0;
     display: grid
 }
 @media (min-width: 1024px) {
-    .grid{
+    .muestra__grid{
         display: grid;
         grid-template-columns: 3fr 4fr;
         gap: 2rem;
@@ -301,10 +327,28 @@ main h2{
 .footer{
     background-color: black;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+    justify-content: space-evenly;
+    padding: 2rem;
 }
+.footer__elementos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer__elementos a{
+    border: none;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.footer__title{
+    text-align: left;
+    margin: 2rem 0 1rem 0;
+}
+.footer__text{
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+}
+
 
 /* ----- CATALOGO ----- */
 

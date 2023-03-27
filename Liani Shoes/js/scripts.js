@@ -6,8 +6,7 @@ const enlaces = document.querySelectorAll('.enlaces');
 const header = document.querySelector('.header');
 const svg = document.querySelectorAll('.redes__svg');
 const mensajeOfertas = document.querySelector('.header__ofertas');
-
-console.log(logo);
+const btnCatalogo = document.querySelector('#btnCatalogo');
 
 setInterval(() =>{
     if(mensajeOfertas.textContent == 'Ofertas todos los fin de semana!'){
@@ -25,6 +24,5 @@ botonSwitch.addEventListener('click', () => {
     enlaces[0].classList.toggle('color-negro');
     enlaces[1].classList.toggle('color-blanco');
     enlaces[1].classList.toggle('color-negro');
+    btnCatalogo.classList.add('fondo-grisOscuro');
 });
-
-console.log('body');
