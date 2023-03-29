@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liani Shoes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;700&family=Koulen&family=Lexend:wght@200;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+    
+    <header class="header fondo-negro">
+
+        <div class="redes">
+
+            <svg class="redes__svg" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg>
+
+              <svg class="redes__svg" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3" />
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+              </svg>
+
+        </div>
+        
+        <p class="header__ofertas color-blanco">Ofertas todos los fin de semana!</p>
+
+        <div class="widgets">
+            <a href="#index">
+            <svg class="redes__svg" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="6" cy="19" r="2" />
+                <circle cx="17" cy="19" r="2" />
+                <path d="M17 17h-11v-14h-2" />
+                <path d="M6 5l14 1l-1 7h-13" />
+              </svg>
+            </a>
+        </div>
+        
+
+    </header>
+
+    <div class="navegador">
+
+        <div class="menu-bar">
+            <a href="index.html"><h1 class="navegador__logo">Liani Shoes</h1>         </a>   
+            <input class="menu__boton" id="menu__btn" type="button" value="Menu">
+        </div>            
+
+        <nav class="main-nav">
+
+            <a href="index.html"><h1 class="main-nav__logo">Liani Shoes</h1> </a>
+
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__enlace color-negro" href="index.html">Inicio</a></li>
+                <li class="menu__item"><a class="menu__enlace color-negro" href="catalogo.html">Catalogo</a></li>
+            </ul>
+
+            <button class="switch" id="switch">
+                    <span>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="4" />
+                        <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+                        </svg>
+    
+                    </span>
+                    <span>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+                        </svg>
+    
+                    </span>
+            </button>
+
+        </nav>
+
+    </div>
+
+    <!-- <div class="hero">
+        <h2 class="hero__titulo">Encontra tus zapatillas favoritas, en tu lugar favorito</h2>
+    </div> -->
+
+    <div class="contenedor-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="img/imghero1.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="img/imhero2.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="img/imghero3.jpg" alt="" class="slider__img">
+            </div>
+        </div>
+        <div class="btn__slider slider__btn--right" id="btn-right"> > </div>
+        <div class="btn__slider slider__btn--left" id="btn-left"> < </div>
+    </div>
+
+    <main class="main contenedor">
+
+        <h2 class="align-left">Tendencias</h2>
+
+        <section class="articulos">
+
+                <div class="tarjeta">
+                    
+                    <a href="catalogo.html">
+                        <img class="tarjeta__img" src="img/zapa1.jpg" alt="zapa1">    
+                    </a>
+                    <div class="tarjeta__descripcion">
+                        <h3 class="tarjeta__titulo">Nike Dunk High</h3>
+                        <p class="tarjeta__talles">Talles 38 | 39 | 40</p>
+                        <h4 class="tarjeta__precio">45 Usd</h4>
+                        <!-- <input class="tarjeta__boton boton" type="button" value="Ver mas"> -->
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="catalogo.html">
+                        <img class="tarjeta__img" src="img/zapa2.jpg" alt="zapa2">    
+                    </a>
+                    <div class="tarjeta__descripcion">
+                        <h3 class="tarjeta__titulo">Nike Dunk Low</h3>
+                        <p class="tarjeta__talles">Talles 38 | 39 | 40</p>
+                        <h4 class="tarjeta__precio">45 Usd</h4>
+                        <!-- <input class="tarjeta__boton boton" type="button" value="Ver mas">  -->
+                    </div>
+                </div>
+    
+
+                <div class="tarjeta">
+                    <a href="catalogo.html">
+                        <img class="tarjeta__img" src="img/zapa3.jpg" alt="zapa3">    
+                    </a>
+                    <div class="tarjeta__descripcion">
+                        <h3 class="tarjeta__titulo">Nike Air Jordan 1 retro</h3>
+                        <p class="tarjeta__talles">Talles 38 | 39 | 40</p>
+                        <h4 class="tarjeta__precio">45 Usd</h4>
+                        <!-- <input class="tarjeta__boton boton" type="button" value="Ver mas">   -->
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="catalogo.html">
+                        <img class="tarjeta__img" src="img/zapa4.jpg" alt="zapa4">    
+                    </a>
+                    <div class="tarjeta__descripcion">
+                        <h3 class="tarjeta__titulo">Nike Air Force 1</h3>
+                        <p class="tarjeta__talles">Talles 38 | 39 | 40</p>
+                        <h4 class="tarjeta__precio">45 Usd</h4>
+                        <!-- <input class="tarjeta__boton boton" type="button" value="Ver mas">        -->
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="muestra muestra__grid">
+
+            <div class="muestra__img">
+                <img class src="img/muestra1.jpg" alt="muestra1">
+            </div>
+
+            <div class="muestra__descripcion">
+
+
+                <h2 class="align-left">Nuevas <span class="letra-italic color-marron">Nike Stefan Janoski</span> </h2>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                <br><br>
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                <a href="catalogo.html"><input id="btnCatalogo" type="button" class="boton muestra__boton fondo-negro" value="Ver catalogo"></a>
+                
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer fondo-negro">
+
+            <div class="footer__elementos">
+
+                <h4 class="color-blanco">Tienda</h4>
+
+                <a class="enlaces color-blanco" href="index.html">Inicio</a>
+                <a class="enlaces color-blanco" href="catalogo.html">Catalogo</a>
+                <a class="enlaces color-blanco" href="index.html">Hombre</a>
+                <a class="enlaces color-blanco" href="catalogo.html">Mujer</a>
+
+            </div>
+
+            <div class="footer__elementos">
+
+                <h4 class="color-blanco">Ls</h4>
+
+                <a class="footer__enlaces color-blanco" href="index.html">Locales</a>
+                <a class="footer__enlaces color-blanco" href="catalogo.html">Cuidados</a>
+                <a class="footer__enlaces color-blanco" href="index.html">Contacto</a>
+                <a class="footer__enlaces color-blanco" href="catalogo.html">Guía de compra</a>
+                <a class="footer__enlaces color-blanco" href="index.html">Privacidad</a>
+                <a class="footer__enlaces color-blanco" href="catalogo.html">Terminos y condiciones</a>
+                <a class="footer__enlaces color-blanco" href="index.html">Politica de reembolso</a>
+
+            </div>
+
+            <div class="footer__elementos footer__newsletter">
+
+                <h4 class="footer__title color-blanco">Sumate a nuestro Newsletter!</h4>
+
+                <p class="footer__text color-blanco">Descubri las novedades y promociones</p>
+
+                <form class="formulario">
+                    <input class="formulario__email" type="email" placeholder="Introducí la dirección de correo electronico">
+                    <button class="boton formulario__boton fondo-grisOscuro">Unirse</button>
+                </form>
+
+                <div class="redes">
+                    <svg class="redes__svg" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+            
+                        <svg class="redes__svg" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                </div>
+
+            </div>
+
+    </footer>
+
+    <script src="js/scripts.js""></script>
+
+</body>
+
+</html>
